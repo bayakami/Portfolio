@@ -1,0 +1,24 @@
+
+body {
+    
+}
+
+#profile {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 50px auto 50px auto;
+}
+#jumbotron1 {
+    min-height: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Georama', sans-serif;
+}
+
+#jumbotron2 {
+    min-height: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
