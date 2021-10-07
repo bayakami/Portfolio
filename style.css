@@ -1,6 +1,6 @@
 
-body {
-    
+body,body * {
+    font-family: 'Georama', sans-serif;
 }
 
 #profile {
@@ -13,7 +13,7 @@ body {
     min-height: 500px;
     text-align: center;
     margin-bottom: 50px;
-    font-family: 'Georama', sans-serif;
+    
 }
 
 #jumbotron2 {
@@ -22,3 +22,48 @@ body {
     margin-bottom: 50px;
 }
 
+#jumbotron3 {
+    min-height: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.boxcont {
+    position: relative;
+    width: 50%;
+  }
+  
+  .w-100 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95%;
+    width: 95%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #81a2ad;
+  }
+  
+  .boxcont:hover .overlay {
+    opacity: 5;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
