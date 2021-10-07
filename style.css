@@ -3,6 +3,10 @@ body,body * {
     font-family: 'Georama', sans-serif;
 }
 
+#nav {
+    margin-top: 0px;
+}
+
 #profile {
     max-width: 20%;
     height: auto;
@@ -23,9 +27,13 @@ body,body * {
 }
 
 #jumbotron3 {
-    min-height: 500px;
+    min-height: 400px;
     text-align: center;
     margin-bottom: 50px;
+}
+
+.container {
+    margin-top: 50px;
 }
 
 .boxcont {
